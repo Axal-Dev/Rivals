@@ -11,7 +11,7 @@ local camera = workspace.CurrentCamera
 local aimAt = "Head"  -- Changez en "UpperTorso" ou "LowerTorso" si vous préférez viser une autre partie du corps.
 local fov = 700  -- Le champ de vision pour détecter les ennemis
 local aimSpeed = 5  -- Vitesse du déplacement de la visée vers la cible
-local predictionMultiplier = 0.05  -- Multiplier pour ajuster la prédiction de la visée en fonction de la vitesse de la cible
+local predictionMultiplier = 0.03  -- Multiplier pour ajuster la prédiction de la visée en fonction de la vitesse de la cible
 
 -- Fonction pour calculer la position prédite de la cible
 local function predict_position(targetPosition, velocity)
